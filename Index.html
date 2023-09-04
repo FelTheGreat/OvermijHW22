@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huiswerkopgave 22</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .image-grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .header {
+    background-color: turquoise;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header h1 {
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: lightcyan;
+  }
+
+  .footer {
+    background-color: turquoise;
+    text-align: center;
+    padding: 20px;
+    min-height: 200px;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Een klein beetje over mij</h1>
+    <div class="nav-links">
+      <a href="Index.html"> Home</a>
+      <a href="Over mij.html">Over mij</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="welcome-message">
+      <h1>Welkom op deze website!</h1>
+      <p>Ontdek hieronder de afbeeldingengalerij:</p>
+    </div>
+    <div class="image-grid">
+      <img src="IMG_5323.jpeg" alt="Afbeelding 1">
+      <img src="IMG_5333.jpeg" alt="Afbeelding 2">
+      <img src="IMG_5349.jpeg" alt="Afbeelding 3">
+      <img src="DSC01863.jpg" alt="Afbeelding 4">
+      <img src="DSC01864.jpg" alt="Afbeelding 5">
+      <img src="8234B408-C996-4D11-A566-999304B98EB2.jpg" alt="Afbeelding 6">
+      <img src="IMG_4990.jpeg" alt="Afbeelding 7">
+      <img src="IMG_4402.jpeg" alt="Afbeelding 8">
+      <img src="IMG_4418.jpeg" alt="Afbeelding 9">
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2023 Felice
+  </div>
+</body>
+</html>
